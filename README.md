@@ -16,7 +16,7 @@
 # add remote url
 git remote set-url --add origin [url]
 # checkout the branch for sync
-git checkout [branch]
+git checkout @langnang-temp/npm-package
 
 git pull
 # force push
