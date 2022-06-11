@@ -6,7 +6,7 @@ name: Node.js Beta Package
 on:
   push:
     branches:
-      - @next
+      - "@next"
 
 jobs:
   build:
