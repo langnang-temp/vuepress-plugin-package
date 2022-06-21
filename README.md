@@ -1,4 +1,4 @@
-# node
+# npm-package
 
 ## Branches
 
@@ -8,6 +8,7 @@
 |  @langnang-temp/node  | ====> |   @langnang-temp/npm-package   | ====> |  develop  | ====> |  master  |
 |  Sync from template   |       |         Sync to remote         |       |           |       |          |
 └───────────────────────┘       └────────────────────────────────┘       └───────────┘       └──────────┘
+
 ```
 
 ### Sync to remote
