@@ -1,5 +1,5 @@
 {
-  "name": "@langnang/npm-package",
+  "name": "@langnang/vuepress-plugin-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/langnang-temp/npm-package.git"
+    "url": "git+https://github.com/langnang-temp/vuepress-plugin-package.git"
   },
   "keywords": [],
   "author": "Langnang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/langnang-temp/npm-package/issues"
+    "url": "https://github.com/langnang-temp/vuepress-plugin-package/issues"
   },
-  "homepage": "https://github.com/langnang-temp/npm-package#readme"
+  "homepage": "https://github.com/langnang-temp/vuepress-plugin-package#readme"
 }

@@ -1,13 +1,13 @@
-# npm-package
+# vuepress-plugin-package
 
 ## Branches
 
 ```sh
-┌───────────────────────┐       ┌────────────────────────────────┐       ┌───────────┐       ┌──────────┐
-|                       |       |                                |       |           |       |          |
-|  @langnang-temp/node  | ====> |   @langnang-temp/npm-package   | ====> |  develop  | ====> |  master  |
-|  Sync from template   |       |         Sync to remote         |       |           |       |          |
-└───────────────────────┘       └────────────────────────────────┘       └───────────┘       └──────────┘
+┌──────────────────────────────┐       ┌────────────────────────────────────────────┐       ┌───────────┐       ┌──────────┐
+|                              |       |                                            |       |           |       |          |
+|  @langnang-temp/npm-package  | ====> |   @langnang-temp/vuepress-plugin-package   | ====> |  develop  | ====> |  master  |
+|       Sync from template     |       |              Sync to remote                |       |           |       |          |
+└──────────────────────────────┘       └────────────────────────────────────────────┘       └───────────┘       └──────────┘
 
 ```
 
@@ -17,7 +17,7 @@
 # add remote url
 git remote set-url --add origin [url]
 # checkout the branch for sync
-git checkout @langnang-temp/npm-package
+git checkout @langnang-temp/vuepress-plugin-package
 
 git pull
 # force push

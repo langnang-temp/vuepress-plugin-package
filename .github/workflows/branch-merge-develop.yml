@@ -6,7 +6,7 @@ name: Branch Merge to Develop
 on:
   push:
     branches:
-      - "@langnang-temp/npm-package"
+      - "@langnang-temp/vuepress-plugin-package"
 jobs:
   sync-branch:
     runs-on: ubuntu-latest
@@ -16,6 +16,6 @@ jobs:
       - name: Merge Branch
         uses: devmasx/merge-branch@master
         with:
-          from_branch: "@langnang-temp/npm-package"
+          from_branch: "@langnang-temp/vuepress-plugin-package"
           target_branch: "develop"
           github_token: ${{ github.GITHUB_TOKEN }}
