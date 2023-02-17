@@ -2,23 +2,22 @@
 
 ## Branches
 
-```sh
-┌───────────────────────┐       ┌───────────┐       ┌──────────┐
-|                       |       |           |       |          |
-|  @langnang-temp/root  | ====> |  develop  | ====> |  master  |
-|    Sync to remote     |       |           |       |          |
-└───────────────────────┘       └───────────┘       └──────────┘
+```mermaid
+flowchart LR
+
+Root["@langanng-temp/root"]-->develop-->master
+
 ```
 
 ### Sync to remote
 
 ```sh
-# add remote url
+# Add remote url
 git remote set-url --add origin [url]
-# checkout the branch for sync
-git checkout [branch]
+# Checkout the branch for sync
+git checkout "@langnang-temp/root"
 
 git pull
-# force push
+# Force push
 git push -f
 ```
