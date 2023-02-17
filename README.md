@@ -1,15 +1,6 @@
 # root
 
-## Branches
-
-```mermaid
-flowchart LR
-
-Root["@langanng-temp/root"]-->develop-->master
-
-```
-
-### Sync to remote
+## Sync to remote
 
 ```sh
 # Add remote url
