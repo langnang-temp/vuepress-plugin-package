@@ -6,7 +6,7 @@
 # Add remote url
 git remote set-url --add origin [url]
 # Checkout the branch for sync
-git checkout "@langnang-temp/root"
+git checkout [branch]
 
 git pull
 # Force push
