@@ -8,13 +8,6 @@
     "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "bowser": "^2.11.0",
-    "crypto-js": "^4.1.1",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/langnang-temp/node.git"
